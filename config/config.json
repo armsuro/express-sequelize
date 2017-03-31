@@ -1,0 +1,12 @@
+{
+    "development": {
+        "url": "mysql://root:123456@localhost/menu"
+    },
+    "test": {
+        "dialect": "mysql",
+        "storage": ":memory:"
+    },
+    "production": {
+        "url" : ""
+    }
+}
